@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+/* start styling the header */
+
+.header-sec{
+    display: flex;
+    border-bottom: solid 3px black;
+    background-color: cyan;
+}
+.header-sec::before{
+    scroll-behavior: smooth;
+    position: fixed;
+}
+
+#logo-div{
+    width: 30%;
+}
+#menu-items-div{
+    width: 70%;
+}
+
+#logo{
+    width: 300px;
+}
+
+#menu-items-div ul{
+    display: flex;
+    float: right;
+}
+
+#menu-items-div ul li{
+    list-style-type:none;
+}
+
+#menu-items-div ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+}
+
+/* End styling the header sec */
+
+/* start styling the hero section */
+.hero-sec{
+    background-image: url('../Images/girls.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.sec-3{
+    display: flex;
+}
+
+.sec-3 div{
+    width: 50%;
+}
